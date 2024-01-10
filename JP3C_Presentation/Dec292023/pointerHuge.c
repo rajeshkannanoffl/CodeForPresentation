@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	char huge* h=(char huge*)0x0000ffff;
+	char huge* h=(char huge*)0x0000000f;
 	printf("%Fp",h+0x1);
 	return 0;
 }
